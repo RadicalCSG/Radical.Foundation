@@ -15,7 +15,7 @@ namespace Chisel.Editors
 
         public const string     ShortCutCreateBase      = "Chisel/Create/";
         public const string     ShortCutEditModeBase    = "Chisel/Edit Mode/";
-        
+
         public const KeyCode SwitchToCreateEditMode     = KeyCode.F1;
         //public const KeyCode SwitchToObjectEditMode   = KeyCode.F2;
         public const KeyCode SwitchToShapeEditMode      = KeyCode.F2;
@@ -42,10 +42,10 @@ namespace Chisel.Editors
         public const ShortcutModifiers  SphereBuilderModeModifiers          = ShortcutModifiers.None;
         public const KeyCode            TorusBuilderModeKey                 = KeyCode.None;
         public const ShortcutModifiers  TorusBuilderModeModifiers           = ShortcutModifiers.None;
-        
+
         public const KeyCode            LinearStairsBuilderModeKey          = KeyCode.F12;
         public const ShortcutModifiers  LinearStairsBuilderModeModifiers    = ShortcutModifiers.None;
-        public const KeyCode            SpiralStairsBuilderModeKey          = KeyCode.F13;	
+        public const KeyCode            SpiralStairsBuilderModeKey          = KeyCode.F13;
         public const ShortcutModifiers  SpiralStairsBuilderModeModifiers    = ShortcutModifiers.None;
         public const KeyCode            PathedStairsBuilderModeKey          = KeyCode.None;
         public const ShortcutModifiers  PathedStairsBuilderModeModifiers    = ShortcutModifiers.None;
@@ -66,5 +66,8 @@ namespace Chisel.Editors
         public const ShortcutModifiers  ToggleBoundsSnappingModifiers   = ShortcutModifiers.Shift;
         public const KeyCode            TogglePivotSnappingKey          = KeyCode.P;
         public const ShortcutModifiers  TogglePivotSnappingModifiers    = ShortcutModifiers.Shift;
+
+        public const KeyCode           ApplyLastSelectedMaterialKey      = KeyCode.A;
+        public const ShortcutModifiers ApplyLastSelectedMaterialModifier = ShortcutModifiers.Shift;
     }
 }

@@ -1,8 +1,9 @@
 fileFormatVersion: 2
 guid: 6060f6e211f81ee4eb7d3f50d73265fc
-timeCreated: 1542225176
-licenseType: Free
+labels:
+- Chisel
 NativeFormatImporter:
+  externalObjects: {}
   mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
